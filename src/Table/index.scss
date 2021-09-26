@@ -51,11 +51,11 @@ table {
 }
 
 .cls-left::before {
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .cls-right::before {
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
