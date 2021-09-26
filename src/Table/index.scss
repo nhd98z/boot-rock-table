@@ -13,6 +13,12 @@ table {
 
   tr {
     display: flex;
+
+    > td:not(:first-child) {
+      :hover {
+        background: #c4c4c4;
+      }
+    }
   }
 
   th, td {
@@ -26,10 +32,6 @@ table {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-    }
-
-    :hover {
-      background: #c4c4c4;
     }
   }
 }
