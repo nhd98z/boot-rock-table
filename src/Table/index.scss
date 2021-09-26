@@ -45,7 +45,8 @@ table {
 .cls::before {
   content: '';
   height: 20px;
-  width: 100%;
+  width: calc(100% + 4px);
+  z-index: 1;
   background: rebeccapurple;
 }
 
